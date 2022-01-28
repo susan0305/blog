@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1rem;
+    background-color: white
+}
+
+.parent{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.flexheader {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+}
+
+.contentfit {
+    display: inline-block;
+}
+
+.quote {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.test1 {
+    border: red 10px solid;
+}
+
+.test2 {
+    border: blue 5px solid;
+}
+
+
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 0.2rem 0 0.2rem;
+} 
+
+nav a:hover {
+    text-decoration: none;
+    color:red;
+
+}
+
+footer i:hover {
+    color:red;
+}
+
+header {
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: red 3px solid;   
+}
+
+.title1 {
+    font-family: 'Unna', serif;
+     font-size: 2rem;
+     text-align: left;
+     color: red;
+     
+}
+
+.title2 {
+
+    font-family: 'Unna', serif;
+    font-size: 2rem;
+    text-align: left;
+    color: black
+    
+}
+
+header ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+header li {
+    display: inline;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.leftmargin {
+    margin-left: 0rem;
+}
+
+.icon {
+    color: gray;
+    margin: 0 0.5rem 0 0.5rem;
+    
+}
+
+
+
+
+
+ol li {
+    font-weight:100;
+    color:grey;
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    padding:0;
+    margin:1.5rem 0 1.5rem 0;
+    list-style-type:none;
+    text-align: left;    
+}
+
+
+img {
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    text-align: center;
+    clear: right;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
